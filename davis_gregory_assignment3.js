@@ -92,8 +92,8 @@ if (createProfiles === true) {
 				};
 			};
 		};
-		console.log(createdProfile);
-		console.log(profileUser);
+		console.log("Profile: " + createdProfile);
+		console.log("Profile user: " + profileUser);
 	};
 } else {
 	console.log("User " + welcomeEntry + " decided not to add profiles at this time.");
